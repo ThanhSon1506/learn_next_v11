@@ -18,7 +18,7 @@ const proxy = httpProxy.createProxyServer()
 export default function handler(req: NextApiRequest, res: NextApiResponse<any>) {
   return new Promise(() => {
     proxy.web(req, res, {
-      target: process.env.API_URL,
+      target: process.env.APP_DOMAINBE,
       changeOrigin: true,
       selfHandleResponse: false,
     })
