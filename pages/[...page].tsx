@@ -1,5 +1,5 @@
-import { Box } from '@mui/material'
+import NotFound from '@/features/layout/not-found'
 
-export default function works() {
-  return <Box>Page not found!!!</Box>
+export default function Default() {
+    return <NotFound/>
 }

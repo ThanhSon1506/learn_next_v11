@@ -22,7 +22,8 @@
       "@/features/*": ["./features/*"],
       "@/helper": ["./helper/index.ts"],
       "@/hooks": ["./hooks/index.ts"],
-      "@/utils": ["./utils/index.ts"]
+      "@/utils": ["./utils/index.ts"],
+      "@/stores": ["./stores/index.ts"],
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
